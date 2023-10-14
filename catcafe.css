@@ -1,0 +1,125 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Inter Tight', sans-serif;  
+}
+
+h1 {
+    color:#F6BD60;
+}
+
+h2 {
+    color:#F6BD60;
+}
+
+main { 
+    display: flex;
+    align-items: center;
+    padding: 5rem 5rem 8rem 5rem;
+}
+
+footer { 
+    display: flex;
+    justify-content: space-between;
+    background-color: #90F1EF;
+}
+
+main1 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+ }
+
+main2 {
+    /*display: flex;
+    flex-direction: row;
+    padding: 5rem;*/
+    transform: translate(-42px, 18px);
+    box-shadow: 70px -70px #FFD6E0;
+}
+
+.happyCC {
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+  }
+
+  .happyC2 {
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+  }
+
+.ULRow {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 50%;
+    flex-direction: row;
+}
+
+.SocialMedia {
+    display: flex;
+    justify-content: flex-end; 
+    width: 50%;       
+    flex-direction:row;
+}
+
+@media only screen and (max-width: 600px) {
+   
+    .ULRow {       
+        display: none;
+    }
+    .happyCC {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .happyC2 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        /*align-items: center;*/
+      }
+    main1 {
+       text-align: center;
+    }
+    main2 {        
+        box-shadow: none;
+        transform: none;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+  }
+
+ @media only screen and (min-width: 600px) {
+    #HumbergerMenu {
+        display: none;
+        }
+    main1 {
+        display: flex;
+        align-items: left;
+        text-align: left;
+    }
+
+   /*  .happyCC {
+        display: flex;
+        flex-direction: row;
+        }
+    #mainimage {
+            box-shadow: 50px -50px 0px 0px #FFD6E0;        
+        }
+    footer {
+            display: flex;
+            flex-direction: row;
+        }
+
+    .happyCC {
+            display: flex;
+            flex-direction: column-reverse;
+        }*/
+    }
